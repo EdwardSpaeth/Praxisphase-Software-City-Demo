@@ -8,13 +8,15 @@
                         "name": "Component 1",
                         "height": 10,
                         "width": 5,
-                        "length": 5
+                        "length": 5,
+                        "requires": ["Component 2"]
                     },
                     {
                         "name": "Component 2",
                         "height": 15,
                         "width": 5,
-                        "length": 5
+                        "length": 5,
+                        "requires": []
                     }
                 ]
             },
@@ -25,7 +27,8 @@
                         "name": "Component 3",
                         "height": 1,
                         "width": 20,
-                        "length": 20
+                        "length": 20,
+                        "requires": []
                     }
                 ]
             }
